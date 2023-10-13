@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 200px;
+}
+.sasa-logo {
+  width: 150px;
+  background-color: white;
+}
+button {
+  background-color: orangered;
+
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80%;
+}
+.links > a{
+  text-decoration: none;
+  color:black;
+}
+.one {
+  background-color: white;
+  background-image: url(https://images.unsplash.com/34/ddTzoX58Q153kjaitXl4_ny.jpg?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&h=768&fit=crop&ixid=eyJhcHBfaWQiOjM3ODR9);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1520px;
+  height: 800px;
+  align-items: center;
+  text-align: center;
+  padding-top: 270px;
+  color: white;
+}
+.one > div > h1{
+  font-size: 100px;
+}
+.two {
+  background-color: white;
+  display: flex;
+  flex: 1;
+}
+.header {
+  background-color: white;
+}
+.three {
+  background-color: white;
+}
+.four {
+  background-color: white;
+}
+.five {
+  background-image: url("./eldohub.jpg");
+  background-attachment: fixed;
+  justify-content: space-evenly;
+}
+.five > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: rgba(59, 20, 200, 0.85);
+  height: 200px;
+}
+.five > div p {
+  color: white;
+  font-size: 30px;
+  width: 20%;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.six > div {
+  display: flex;
+}
